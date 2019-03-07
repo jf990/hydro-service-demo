@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>ArcGIS tutorial: proxy to hydrology service</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.10/esri/css/main.css">
+    <link rel="stylesheet" href="demo.css">
+  </head>
+  <body>
+    <div id="anonymousPanel" style="display: block; padding: 5px; text-align: center;">
+      <span id="sign-in" class="action">Sign In with ArcGIS</span> to see hydrology.
+    </div>
+      
+    <div id="personalizedPanel" style="display: none; padding: 5px; text-align: center;">
+      Welcome <span id="userId" style="font-weight: bold;"></span> &nbsp;-&nbsp;
+      <span id="sign-out" class="action">Sign Out</span>
+    </div>
+      
+    <div id="viewDiv"><div id="progress">loading...</div></div>
+    <script src="https://js.arcgis.com/4.10/"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
